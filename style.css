@@ -18,33 +18,43 @@ textArea {
 }
 
 .keyBoard {
-   width: 715px;
+   width: 784px;
    margin: 0 auto;
    display: flex;
    flex-direction: column;
+   justify-content: space-evenly;
+   background-color: #cdb8b8;
+   border: 3px solid #947777;
+   border-radius: 5px;
+   height: 244px;
+
 }
 
 .row {
    display: flex;
    width: 100%;
    height: 40px;
-   margin-bottom: 8px;
    display: flex;
+   justify-content: space-around;
 }
 
 .key {
    min-width: 39px;
    height: 40px;
-   margin-left: 6px;
    font-weight: 500;
    line-height: 40px;
    text-align: center;
    color: #B2B2B2;
    background: #2d2d2d;
    border: 1px solid #2d2d2d;
-   border-radius: 3px;
+   border-radius: 5px;
    cursor: pointer;
    user-select: none;
+}
+
+.discription {
+   margin-top: 10px;
+   text-align: center;
 }
 
 .hidden {
@@ -52,8 +62,11 @@ textArea {
 }
 
 .active {
-   background-color: #FAFAFA;
+   background-color: #947777;
+   border-radius: 30%;
+   color: #2d2d2d;
    transition-duration: 0.3s;
+
 }
 
 
