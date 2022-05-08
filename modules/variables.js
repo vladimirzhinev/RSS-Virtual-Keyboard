@@ -1,5 +1,7 @@
 export const unactive = (item) => {
-   item.classList.remove('active');
+   if (item.classList.contains('active')) {
+      item.classList.remove('active');
+   }
 };
 
 export const active = (item) => {
